@@ -33,7 +33,7 @@ class _CustomTextFieldState extends State<CustomTextField> {
         decoration: InputDecoration(
           prefixIcon: Icon(widget.icon),
           // TODO: SEPARAR TERNÁRIO EM FUNÇÃO SEPARADA E TROCAR IconButton por InkWell
-          suffix: widget.isSecret
+          suffixIcon: widget.isSecret
               ? IconButton(
                   onPressed: () {
                     setState(() {
